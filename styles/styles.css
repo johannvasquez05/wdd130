@@ -32,7 +32,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0 / 0.2);
+    border: 1px solid black;
     padding: 3px;
     background-color: aquamarine;
     color: black;
@@ -46,6 +46,6 @@ aside img {
 
 footer {
     margin-top: auto;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid black;
     text-align: center;
 }
