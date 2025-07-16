@@ -1,22 +1,28 @@
+:root {
+--border: 1px solid black;
+--margin: 1rem;
+--background-color: aquamarine;
+--text-color: black;
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color:  var(--text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--text-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -31,11 +37,11 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
+    margin: var(--margin);
+    border: var(--border);
     padding: 3px;
-    background-color: aquamarine;
-    color: black;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -45,7 +51,7 @@ aside img {
 }
 
 footer {
-    margin-top: auto;
-    border-top: 1px solid black;
+    margin-top: var(--margin);
+    border-top: var(--border);
     text-align: center;
 }
