@@ -1,16 +1,17 @@
 :root {
---border: 1px solid black;
---margin: 1rem;
---background-color: aquamarine;
---text-color: black;
+    --border: 1px solid black;
+    --margin: 1rem;
+    --background-color: aquamarine;
+    --text-color: black;
 }
+
 nav {
     background-color: var(--background-color);
     padding: 10px;
 }
 
 nav a {
-    color:  var(--text-color);
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
