@@ -44,29 +44,6 @@ article {
     padding: 8px;
 }
 
-section p {
-    text-align: justify;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 50px;
-    height: auto;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 h1 {
     position: absolute;
     top: 20px;
