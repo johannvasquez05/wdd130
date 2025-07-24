@@ -1,8 +1,9 @@
 :root {
     --primary-color: #165eac;
     --secondary-color: #edf2f4;
-    --accent1-color: #82a8d0;
+    --accent1-color: #0d66c5;
     --accent2-color: #b8cde2;
+    --accen3-color: #0004ff;
     --heading-font: "Raleway", raleway;
     --body-font: "Open Sans", open-sans
 }
@@ -87,6 +88,7 @@ section p {
 .history-text {
     margin: 5px;
     padding: 8px;
+    color: var(--accen3-color);
 }
 
 .history-img {
@@ -99,7 +101,7 @@ section p {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr ;
 }
 
 .adventure-title {
@@ -114,14 +116,14 @@ section p {
     padding-top: 15px;
 }
 
-.adventure-text {
+.adventure-text{
     grid-column: 1;
     grid-row: 3;
     text-align: center;
-
+    color: var(--accen3-color);
 }
 
-footer {
+footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -136,7 +138,7 @@ footer p {
     margin-left: 10rem;
 }
 
-.socialmedia {
+.socialmedia{
     display: flex;
     gap: 5px;
     text-decoration: none;
