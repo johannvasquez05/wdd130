@@ -8,6 +8,8 @@
     --body-font: "Open Sans", open-sans
 }
 
+/* About Us CSS */
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -57,20 +59,25 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 nav,
-p,
-section,
-article {
+.costumer-text,
+.comapny,
+.history-text,
+.history,
+.adventure,
+.costumer {
     margin: 16px;
     padding: 8px;
 }
 
-section p {
+.history p,
+.adventure p {
     text-align: justify;
 }
 
@@ -159,7 +166,7 @@ footer p {
     height: auto;
 }
 
-h1 {
+.name {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -170,7 +177,7 @@ h1 {
     color: white;
 }
 
-article {
+.costumer {
     position: absolute;
     top: 295px;
     right: 26px;
@@ -188,4 +195,143 @@ article {
     float: right;
     width: 120px;
     height: 75px;
+}
+
+/* Contact Us CSS */
+
+.company-info {
+    text-align: center;
+    margin: 25px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.contact-info div {
+    display: grid;
+    place-items: center;
+    height: 225px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: .5em;
+    margin-top: 0px;
+}
+
+.contact-info .map {
+    width: 300px;
+    height: auto;
+}
+
+.contact-info h3,
+.contact-info p {
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team-images img {
+    width: 200px;
+    height: auto;
+}
+
+.team-images div {
+    display: grid;
+    place-items: center;
+    height: 225px;
+    padding: 10px;
+    background-color: var(--accent1-color);
+    border: 1px solid black;
+    margin: 8px;
+    border-radius: .5em;
+}
+
+.team-text {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.help-center h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.help-center p,
+label {
+    margin: 5px;
+}
+
+.help-center form {
+    display: grid;
+    place-self: center;
+    width: 825px;
+    margin-bottom: 25px;
+    padding: .25rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+}
+
+.help-center fieldset {
+    display: grid;
+    grid-gap: 1.5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.help-center legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+.help-center input,
+.help-center select,
+.help-center textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.help-center input[type="text"] {
+    width: 645px;
+}
+
+.help-center input[type="email"] {
+    width: 680px;
+}
+
+.help-center textarea {
+
+    width: 750px;
+}
+
+.help-center button {
+    margin: 1rem 20rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.help-center button:hover {
+    background-color: darkgreen;
+}
+
+.wireframe{
+    color: var(--secondary-color);
 }
