@@ -335,3 +335,150 @@ label {
 .wireframe {
     color: var(--secondary-color);
 }
+
+/* Home page CSS */
+
+.newsletter {
+    display: grid;
+    place-self: center;
+    width: 825px;
+    margin: 25px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+}
+
+.newsletter fieldset {
+    border: 0;
+}
+
+.newsletter h2 {
+    text-align: center;
+}
+
+.newsletter-name,
+.newsletter-email {
+    margin-top: 20px;
+}
+
+.newsletter input[type="text"] {
+    width: 688px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 722.5px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.daily-newsletter {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.newsletter button {
+    margin: .25rem 20rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.newsletter button:hover {
+    background-color: darkgreen;
+}
+
+.call-action {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 25px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.content-text {
+    display: grid;
+    background-color: var(--secondary-color);
+    height: 300px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: .5em;
+}
+
+.content img {
+    width: 200px;
+    height: auto;
+    box-shadow: 2.5px 2.5px 10px gray;
+}
+
+/* Trips page */
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.trip-text {
+    display: grid;
+    background-color: var(--secondary-color);
+    height: 350px;
+    width: auto;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: .5em;
+    font-size: 15px;
+}
+
+.trip img {
+    width: 200px;
+    height: auto;
+    box-shadow: 2.5px 2.5px 10px gray;
+}
+
+.table h2 {
+    text-align: center;
+    border: 1px solid black;
+    background-color: var(--accent2-color);
+    font-size: 27.5px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 840px;
+    margin-bottom: 35px;
+    background-color: var(--secondary-color);
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-family: var(--heading-font);
+    font-size: 20px;
+}
